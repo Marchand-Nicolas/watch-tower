@@ -34,8 +34,10 @@
   background-color: var(--menu-background);
   border-radius: var(--menu-border-radius);
   padding: 5px 10px;
-  margin: 0 -10px;
-  border: 1px solid white;
+  margin: 0 -10px 0 -10px;
+  border: 1px solid white !important;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.131) !important;
 }
 
 .filters {
